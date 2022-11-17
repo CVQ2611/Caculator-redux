@@ -1,0 +1,35 @@
+.wrapper {
+    width: 68px;
+    height: 68px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(216, 216, 216);
+    transition: all ease 0.2s;
+}
+
+.primary {
+    background-color: rgb(100, 149, 237);
+    width: calc(68px * 2);
+}
+
+
+.wrapper:hover {
+    transition: all ease 0.2s;
+    background-color: rgba(239, 239, 239);
+}
+
+.wrapper:active {
+    background-color: rgb(216, 216, 216);
+    transition: all ease 0.1s;
+}
+
+.primary:hover {
+    background-color: rgb(126, 170, 252);
+}
+
+.primary:active {
+    background-color: rgb(100, 149, 237);
+}
